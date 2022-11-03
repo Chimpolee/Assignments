@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zuri2.css">
+    <title>Login page</title>
+</head>
+<body>
+    <nav>
+        <label for="logo" class="logo">
+           <img src="techkong.png" alt="logo" style="height: 110px; width: 230px;">
+        </label>
+           <ul>
+              
+               <li class="contact-link"><a href="portfolio.html">Home</a></li>
+           </ul>
+           <label for="icon">
+            <button  class="dropbtn"><i class="fas fa-bars" id="bars"></i></button>
+             <div class="dropdown" id="myDropdown">
+               <a href="#home">HOME</a>
+               <a href="#about">ABOUT</a>
+               <a href="#contact">CONTACT</a>
+               <a href="#services">SERVICES</a> 
+               <a href="#projects">PROJECTS</a>
+             </div>   
+        </label>
+       </nav>
+    <h2>CONTACT ME</h2>
+    <form action="https://www.google.com" method="get">
+        <label for="">Email</label>
+        <input type="email" name="username" required>
+        <label for="text">Send a message</label>
+        <textarea name="text" id="" cols="60" rows="10" placeholder="Type in your message" style="border-radius: 5px;"></textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
