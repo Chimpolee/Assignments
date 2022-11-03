@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Shadows+Into+Light&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-image: url(https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #918f8f;
+    background-blend-mode: multiply;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+form{
+    color: white;
+    width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+    padding-bottom: 2em;
+    border-radius: 7px;
+    box-shadow: -3px -3px 7px #dddddd73, 3px 3px 5px rgba(0, 0, 0, 0.4);
+    line-height: 30px;
+    padding: 20px;
+}
+h2, p{
+    margin: 1em auto;
+    text-align: center;
+    color: #cfcfcf;
+}
+label{
+    display: block;
+}
+input, select{
+    font-size: 16px;
+    border: none;
+    background-color: none;
+    border-bottom: 2px solid rgb(43, 42, 42);
+	width: 100%;
+    min-height: 2em;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 20px 60px 0 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    transition: all 0.3s ease-in;
+}
+button:hover{
+    background-color: #918f8f;
+    color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+input[type="submit"] {
+    display: block;
+    max-width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    color: white;
+    font-size: 1.1rem;
+   
+    background-color: rgb(31, 28, 28);
+    transition: all 0.3s ease-in;
+  }
+  input[type="submit"]:hover{
+    background-color: #918f8f;
+    color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }

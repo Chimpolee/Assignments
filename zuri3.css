@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Shadows+Into+Light&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-image: url(https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #918f8f;
+    background-blend-mode: multiply;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+
+h2, h3{
+    margin: 1em auto;
+    text-align: center;
+    color: #cfcfcf;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    display: block;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 10px;
+    max-width: 15%;
+    background-color: rgb(31, 28, 28);
+    transition: all 0.3s ease-in;
+}
+button:hover{
+    background-color: #918f8f;
+    color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.svg{
+    display: flex;
+    justify-content: center;
+}
